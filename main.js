@@ -160,7 +160,7 @@ function my_keydown(e)
  {
      if(car2_y <=500)
      {
-         car1_y = car1_y+ 10;
+         car2_y = car2_y+ 10;
          console.log("When down arrow is pressed, x = " + car2_x + " | y = " +car2_y);
 		 uploadBackground();
 		 uploadcar1()
